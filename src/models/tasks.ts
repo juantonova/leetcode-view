@@ -5,9 +5,9 @@ export type Task = {
   outgoing_example: unknown
   tags: Tag[]
   category: CategoryType
-  additional_info?: string[]
   score: number
   title: string
+  additional_info?: string[]
 }
 
 export enum Tag {
